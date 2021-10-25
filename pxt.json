@@ -1,0 +1,20 @@
+{
+    "name": "GHBit",
+    "version": "3.0.3",
+    "description": "Extension for YahBoom GHBit_V1/V2 V3.0.3",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:lzty634158/pxt-neopixel"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/GHBit-strings.json"
+
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
