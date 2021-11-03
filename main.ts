@@ -288,8 +288,8 @@ namespace GHBit {
                 now_state = enRocker.Down;
             }
         }
-        else  // 左右
-        {
+        //else  // 左右
+        //{
             if (y < 200) //右
             {
                 now_state = enRocker.Right;
@@ -300,7 +300,7 @@ namespace GHBit {
                     now_state = enRocker.Left;
                 }
             }
-        }
+        //}
         if (z == 0)
             now_state = enRocker.Press;
         if (now_state == value)
