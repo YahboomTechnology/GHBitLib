@@ -296,7 +296,7 @@ namespace GHBit {
             }
             else if (y > 800) //左 900 -> 730
             {
-                if(y < 1000){
+                if(y < 950){
                     now_state = enRocker.Left;
                 }
             }
